@@ -43,7 +43,9 @@ const SESS_COLORS = {
   Recovery: "#58a6ff", Rest: "#30363d", Intervals: "#d2a8ff", Warmup: "#e3b341"
 }
 
-const STRAVA_CLIENT_ID = import.meta.env.VITE_STRAVA_CLIENT_ID || "YOUR_CLIENT_ID"
+// Strava's public app id (it appears in every sign-in link); set VITE_STRAVA_CLIENT_ID.
+const STRAVA_CLIENT_ID = import.meta.env.VITE_STRAVA_CLIENT_ID
+if (!STRAVA_CLIENT_ID) console.error("VITE_STRAVA_CLIENT_ID is not set, so Connect with Strava will not work.")
 const APP_URL = import.meta.env.VITE_APP_URL || window.location.origin
 
 // ─────────────────────────────────────────────────────────────────────────────

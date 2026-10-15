@@ -1,5 +1,9 @@
 # 🏃 Endurance Intelligence
 
+**Live:** https://enduranceintelligence.vercel.app (laptop or desktop only; "Try demo" works without a Strava account)
+
+![The landing page: connect Strava or try the demo runner](docs/screenshot.png)
+
 A Strava-connected web app that reads your real running history and generates a **personalised, science-backed training plan** for a target race — with the right weekly mileage, long runs, and pace zones for every session. It also includes a **fitness-loss forecast** that estimates how much fitness you lose during rest days and how to return safely.
 
 Built as an MSc Big Data Analytics project.
