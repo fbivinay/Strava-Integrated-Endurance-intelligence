@@ -75,7 +75,7 @@ The OAuth token exchange and token refresh happen inside the serverless function
 │   ├── App.jsx              # Main app: UI + plan/forecast logic
 │   └── supabase.js          # Supabase client (browser)
 ├── index.html
-├── vite.config.js
+├── vite.config.mjs
 ├── vercel.json
 ├── package.json
 └── .env.example
