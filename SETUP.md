@@ -177,7 +177,7 @@ endurance-app/
 │   ├── App.jsx              ← Main app + UI
 │   └── supabase.js          ← Supabase client
 ├── index.html
-├── vite.config.js
+├── vite.config.mjs
 ├── vercel.json
 ├── package.json
 └── .env.example
